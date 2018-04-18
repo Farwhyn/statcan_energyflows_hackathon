@@ -22,7 +22,7 @@ const path = sankey.link();
 
 const freqCounter = 1;
 
-d3.json('energy_flow.json', (energy) => {
+d3.json('https://api.myjson.com/bins/12n2mb', (energy) => {
     sankey
         .nodes(energy.nodes)
         .links(energy.links)
