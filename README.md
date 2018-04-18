@@ -9,3 +9,6 @@ http://bl.ocks.org/tonmcg/570fb0409b6c59768229d5631bc3d77e
 
 # url for hosted json data
 http://myjson.com/12n2mb
+
+# hosted site URL:
+http://energyflowstatcan.s3-website-us-east-1.amazonaws.com/
