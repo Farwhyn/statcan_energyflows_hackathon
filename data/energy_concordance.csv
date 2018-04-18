@@ -1,0 +1,24 @@
+our_label,energy_label,level
+Total industrial,Total industrial,1
+Mining and oil and gas extraction,Mining and oil and gas extraction,2
+Total manufacturing,Total manufacturing,2
+Pulp and paper manufacturing,Pulp and paper manufacturing,3
+Primary metal manufacturing,Iron and steel manufacturing,3
+Primary metal manufacturing,Aluminum and non-ferrous metal manufacturing,3
+Cement manufacturing,Cement manufacturing,3
+Refined petroleum products manufacturing,Refined petroleum products manufacturing,3
+Chemicals and fertilizers manufacturing,Chemicals and fertilizers manufacturing,3
+All other manufacturing,All other manufacturing,3
+Forestry and logging and support activities for forestry,Forestry and logging and support activities for forestry,2
+Construction,Construction,2
+Total transportation,Total transportation,1
+Railways,Railways,2
+Total airlines,Total airlines,2
+Total marine,Total marine,2
+Pipelines,Pipelines,2
+Road transport and urban transit,Road transport and urban transit,2
+Retail pump sales,Retail pump sales,2
+Agriculture,Agriculture,1
+Residential,Residential,1
+Public administration,Public administration,1
+Commercial and other institutional,Commercial and other institutional,1
