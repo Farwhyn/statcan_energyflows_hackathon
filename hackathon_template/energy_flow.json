@@ -1,0 +1,496 @@
+{
+    "links":[
+        {
+            "source":13,
+            "target":2,
+            "value":1354015
+        },
+        {
+            "source":7,
+            "target":2,
+            "value":33
+        },
+        {
+            "source":13,
+            "target":3,
+            "value":8840768
+        },
+        {
+            "source":7,
+            "target":3,
+            "value":1737710
+        },
+        {
+            "source":2,
+            "target":1,
+            "value":87307
+        },
+        {
+            "source":13,
+            "target":9,
+            "value":6473346
+        },
+        {
+            "source":7,
+            "target":9,
+            "value":770134
+        },
+        {
+            "source":2,
+            "target":6,
+            "value":33
+        },
+        {
+            "source":3,
+            "target":6,
+            "value":6931876
+        },
+        {
+            "source":9,
+            "target":6,
+            "value":3070656
+        },
+        {
+            "source":2,
+            "target":17,
+            "value":678424
+        },
+        {
+            "source":2,
+            "target":17,
+            "value":33
+        },
+        {
+            "source":9,
+            "target":17,
+            "value":385995
+        },
+        {
+            "source":9,
+            "target":17,
+            "value":297908
+        },
+        {
+            "source":2,
+            "target":4,
+            "value":33
+        },
+        {
+            "source":2,
+            "target":12,
+            "value":11
+        },
+        {
+            "source":2,
+            "target":10,
+            "value":2383
+        },
+        {
+            "source":2,
+            "target":18,
+            "value":45002
+        },
+        {
+            "source":2,
+            "target":16,
+            "value":305
+        },
+        {
+            "source":3,
+            "target":15,
+            "value":4186070
+        },
+        {
+            "source":9,
+            "target":15,
+            "value":35693
+        },
+        {
+            "source":9,
+            "target":12,
+            "value":619799
+        },
+        {
+            "source":9,
+            "target":10,
+            "value":150810
+        },
+        {
+            "source":9,
+            "target":18,
+            "value":1323172
+        },
+        {
+            "source":9,
+            "target":19,
+            "value":167166
+        },
+        {
+            "source":9,
+            "target":0,
+            "value":39125
+        },
+        {
+            "source":9,
+            "target":16,
+            "value":689772
+        },
+        {
+            "source":9,
+            "target":14,
+            "value":23260
+        },
+        {
+            "source":9,
+            "target":4,
+            "value":489636
+        },
+        {
+            "source":13,
+            "target":8,
+            "value":677715
+        },
+        {
+            "source":8,
+            "target":6,
+            "value":205287
+        },
+        {
+            "source":7,
+            "target":8,
+            "value":73300
+        },
+        {
+            "source":8,
+            "target":15,
+            "value":33
+        },
+        {
+            "source":8,
+            "target":12,
+            "value":33
+        },
+        {
+            "source":8,
+            "target":10,
+            "value":33
+        },
+        {
+            "source":8,
+            "target":18,
+            "value":57464
+        },
+        {
+            "source":8,
+            "target":19,
+            "value":10716
+        },
+        {
+            "source":8,
+            "target":0,
+            "value":9065
+        },
+        {
+            "source":8,
+            "target":16,
+            "value":14479
+        },
+        {
+            "source":8,
+            "target":4,
+            "value":35767
+        },
+        {
+            "source":13,
+            "target":11,
+            "value":1809683
+        },
+        {
+            "source":11,
+            "target":6,
+            "value":246946
+        },
+        {
+            "source":7,
+            "target":11,
+            "value":10327
+        },
+        {
+            "source":11,
+            "target":5,
+            "value":1573064
+        },
+        {
+            "source":5,
+            "target":12,
+            "value":233990
+        },
+        {
+            "source":5,
+            "target":18,
+            "value":713190
+        },
+        {
+            "source":5,
+            "target":19,
+            "value":22060
+        },
+        {
+            "source":5,
+            "target":0,
+            "value":34949
+        },
+        {
+            "source":5,
+            "target":16,
+            "value":605250
+        },
+        {
+            "source":5,
+            "target":14,
+            "value":48014
+        },
+        {
+            "source":5,
+            "target":4,
+            "value":375034
+        },
+        {
+            "source":1,
+            "target":6,
+            "value":33
+        },
+        {
+            "source":7,
+            "target":1,
+            "value":16723
+        },
+        {
+            "source":1,
+            "target":10,
+            "value":1030
+        },
+        {
+            "source":1,
+            "target":18,
+            "value":73303
+        },
+        {
+            "source":1,
+            "target":17,
+            "value":285
+        },
+        {
+            "source":1,
+            "target":18,
+            "value":21181
+        },
+        {
+            "source":15,
+            "target":6,
+            "value":1017387
+        },
+        {
+            "source":7,
+            "target":15,
+            "value":654966
+        },
+        {
+            "source":15,
+            "target":17,
+            "value":68093
+        },
+        {
+            "source":15,
+            "target":17,
+            "value":21361
+        },
+        {
+            "source":15,
+            "target":12,
+            "value":543984
+        },
+        {
+            "source":15,
+            "target":10,
+            "value":524755
+        },
+        {
+            "source":15,
+            "target":18,
+            "value":293935
+        },
+        {
+            "source":15,
+            "target":19,
+            "value":2488374
+        },
+        {
+            "source":15,
+            "target":0,
+            "value":213018
+        },
+        {
+            "source":15,
+            "target":16,
+            "value":69550
+        },
+        {
+            "source":15,
+            "target":14,
+            "value":50525
+        },
+        {
+            "source":15,
+            "target":4,
+            "value":78599
+        },
+        {
+            "source":17,
+            "target":5,
+            "value":504069
+        }
+    ],
+    "nodes":[
+        {
+            "name":"Agriculture",
+            "Stock variation":null,
+            "Other adjustments":null,
+            "Statistical difference":null,
+            "Inter-product transfers":null
+        },
+        {
+            "name":"Coal products",
+            "Stock variation":-2321,
+            "Other adjustments":null,
+            "Statistical difference":null,
+            "Inter-product transfers":null
+        },
+        {
+            "name":"Coal",
+            "Stock variation":10504,
+            "Other adjustments":33469,
+            "Statistical difference":33,
+            "Inter-product transfers":null
+        },
+        {
+            "name":"Crude oil",
+            "Stock variation":10178,
+            "Other adjustments":908378,
+            "Statistical difference":null,
+            "Inter-product transfers":null
+        },
+        {
+            "name":"Commercial and other institutional",
+            "Stock variation":null,
+            "Other adjustments":null,
+            "Statistical difference":null,
+            "Inter-product transfers":null
+        },
+        {
+            "name":"Electricity generation",
+            "Stock variation":null,
+            "Other adjustments":null,
+            "Statistical difference":null,
+            "Inter-product transfers":null
+        },
+        {
+            "name":"Exports",
+            "Stock variation":null,
+            "Other adjustments":null,
+            "Statistical difference":null,
+            "Inter-product transfers":null
+        },
+        {
+            "name":"Imports",
+            "Stock variation":null,
+            "Other adjustments":null,
+            "Statistical difference":null,
+            "Inter-product transfers":null
+        },
+        {
+            "name":"NGLs",
+            "Stock variation":-17653,
+            "Other adjustments":-124573,
+            "Statistical difference":4,
+            "Inter-product transfers":null
+        },
+        {
+            "name":"Natural gas",
+            "Stock variation":95673,
+            "Other adjustments":187930,
+            "Statistical difference":null,
+            "Inter-product transfers":-112297
+        },
+        {
+            "name":"Non-energy use",
+            "Stock variation":null,
+            "Other adjustments":null,
+            "Statistical difference":null,
+            "Inter-product transfers":null
+        },
+        {
+            "name":"Primary electricity, hydro and nuclear",
+            "Stock variation":null,
+            "Other adjustments":null,
+            "Statistical difference":null,
+            "Inter-product transfers":null
+        },
+        {
+            "name":"Producer consumption",
+            "Stock variation":null,
+            "Other adjustments":null,
+            "Statistical difference":null,
+            "Inter-product transfers":null
+        },
+        {
+            "name":"Production",
+            "Stock variation":null,
+            "Other adjustments":null,
+            "Statistical difference":null,
+            "Inter-product transfers":null
+        },
+        {
+            "name":"Public administration",
+            "Stock variation":null,
+            "Other adjustments":null,
+            "Statistical difference":null,
+            "Inter-product transfers":null
+        },
+        {
+            "name":"Refined petroleum products",
+            "Stock variation":-35833,
+            "Other adjustments":null,
+            "Statistical difference":33,
+            "Inter-product transfers":-386892
+        },
+        {
+            "name":"Residential",
+            "Stock variation":null,
+            "Other adjustments":null,
+            "Statistical difference":null,
+            "Inter-product transfers":null
+        },
+        {
+            "name":"Secondary electricity, thermal",
+            "Stock variation":null,
+            "Other adjustments":null,
+            "Statistical difference":null,
+            "Inter-product transfers":null
+        },
+        {
+            "name":"Total industrial",
+            "Stock variation":null,
+            "Other adjustments":null,
+            "Statistical difference":null,
+            "Inter-product transfers":null
+        },
+        {
+            "name":"Total transportation",
+            "Stock variation":null,
+            "Other adjustments":null,
+            "Statistical difference":null,
+            "Inter-product transfers":null
+        }
+    ]
+}

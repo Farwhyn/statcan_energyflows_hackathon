@@ -1,108 +1,134 @@
-var units = "Widgets";
+/* global d3 */
 
-var margin = {top: 10, right: 10, bottom: 10, left: 10},
-    width = 1200 - margin.left - margin.right,
-    height = 740 - margin.top - margin.bottom;
+const margin = { top: 1, right: 1, bottom: 6, left: 1 };
+const width = 960 - margin.left - margin.right;
+const height = 500 - margin.top - margin.bottom;
+const formatNumber = d3.format(',.0f');
+const format = d => `${formatNumber(d)} TJ`;
+const color = d3.scaleOrdinal(d3.schemeCategory20);
 
-var formatNumber = d3.format(",.0f"),    // zero decimal places
-    format = function(d) { return formatNumber(d) + " " + units; },
-    color = d3.scale.category20();
+const svg = d3.select('svg')
+    .attr('width', width + margin.left + margin.right)
+    .attr('height', height + margin.top + margin.bottom)
+    .append('g')
+    .attr('transform', `translate(${margin.left},${margin.top})`);
 
-// append the svg canvas to the page
-var svg = d3.select("#chart").append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-    .append("g")
-    .attr("transform",
-        "translate(" + margin.left + "," + margin.top + ")");
-
-// Set the sankey diagram properties
-var sankey = d3.sankey()
-    .nodeWidth(36)
+const sankey = d3.sankey()
+    .nodeWidth(15)
     .nodePadding(10)
     .size([width, height]);
 
-var path = sankey.link();
+const path = sankey.link();
 
-// load the data
-d3.json("sankeygreenhouse.json", function(error, graph) {
+const freqCounter = 1;
 
-    var nodeMap = {};
-    graph.nodes.forEach(function(x) { nodeMap[x.name] = x; });
-    graph.links = graph.links.map(function(x) {
-        return {
-            source: nodeMap[x.source],
-            target: nodeMap[x.target],
-            value: x.value
-        };
-    });
-
+d3.json('energy_flow.json', (energy) => {
     sankey
-        .nodes(graph.nodes)
-        .links(graph.links)
+        .nodes(energy.nodes)
+        .links(energy.links)
         .layout(32);
 
-// add in the links
-    var link = svg.append("g").selectAll(".link")
-        .data(graph.links)
-        .enter().append("path")
-        .attr("class", "link")
-        .attr("d", path)
-        .style("stroke-width", function(d) { return Math.max(1, d.dy); })
-        .sort(function(a, b) { return b.dy - a.dy; });
+    const link = svg.append('g').selectAll('.link')
+        .data(energy.links)
+        .enter().append('path')
+        .attr('class', 'link')
+        .attr('d', path)
+        .style('stroke-width', d => Math.max(1, d.dy))
+        .sort((a, b) => b.dy - a.dy);
 
-// add the link titles
-    link.append("title")
-        .text(function(d) {
-            return d.source.name + " → " +
-                d.target.name + "\n" + format(d.value); });
+    link.append('title')
+        .text(d => `${d.source.name} → ${d.target.name}\n${format(d.value)}`);
 
-// add in the nodes
-    var node = svg.append("g").selectAll(".node")
-        .data(graph.nodes)
-        .enter().append("g")
-        .attr("class", "node")
-        .attr("transform", function(d) {
-            return "translate(" + d.x + "," + d.y + ")"; })
-        .call(d3.behavior.drag()
-            .origin(function(d) { return d; })
-            .on("dragstart", function() {
-                this.parentNode.appendChild(this); })
-            .on("drag", dragmove));
+    const node = svg.append('g').selectAll('.node')
+        .data(energy.nodes)
+        .enter().append('g')
+        .attr('class', 'node')
+        .attr('transform', d => `translate(${d.x},${d.y})`)
+        .call(d3.drag()
+            .subject(d => d)
+            .on('start', function () { this.parentNode.appendChild(this); })
+            .on('drag', dragmove));
 
-// add the rectangles for the nodes
-    node.append("rect")
-        .attr("height", function(d) { return d.dy; })
-        .attr("width", sankey.nodeWidth())
-        .style("fill", function(d) {
-            return d.color = color(d.name.replace(/ .*/, "")); })
-        .style("stroke", function(d) {
-            return d3.rgb(d.color).darker(2); })
-        .append("title")
-        .text(function(d) {
-            return d.name + "\n" + format(d.value); });
+    node.append('rect')
+        .attr('height', d => d.dy)
+        .attr('width', sankey.nodeWidth())
+        .style('fill', (d) => {
+            d.color = color(d.name.replace(/ .*/, ''));
+            return d.color;
+        })
+        .style('stroke', 'none')
+        .append('title')
+        .text(d => `${d.name}\n${format(d.value)}`);
 
-// add in the title for the nodes
-    node.append("text")
-        .attr("x", -6)
-        .attr("y", function(d) { return d.dy / 2; })
-        .attr("dy", ".35em")
-        .attr("text-anchor", "end")
-        .attr("transform", null)
-        .text(function(d) { return d.name; })
-        .filter(function(d) { return d.x < width / 2; })
-        .attr("x", 6 + sankey.nodeWidth())
-        .attr("text-anchor", "start");
+    node.append('text')
+        .attr('x', -6)
+        .attr('y', d => d.dy / 2)
+        .attr('dy', '.35em')
+        .attr('text-anchor', 'end')
+        .attr('transform', null)
+        .text(d => d.name)
+        .filter(d => d.x < width / 2)
+        .attr('x', 6 + sankey.nodeWidth())
+        .attr('text-anchor', 'start');
 
-// the function for moving the nodes
     function dragmove(d) {
-        d3.select(this).attr("transform",
-            "translate(" + (
-                d.x = Math.max(0, Math.min(width - d.dx, d3.event.x))
-            ) + "," + (
-                d.y = Math.max(0, Math.min(height - d.dy, d3.event.y))
-            ) + ")");
+        d3.select(this).attr('transform', `translate(${d.x = Math.max(0, Math.min(width - d.dx, d3.event.x))},${d.y = Math.max(0, Math.min(height - d.dy, d3.event.y))})`);
         sankey.relayout();
-        link.attr("d", path);
+        link.attr('d', path);
+    }
+
+    const linkExtent = d3.extent(energy.links, d => d.value);
+    const frequencyScale = d3.scaleLinear().domain(linkExtent).range([0.05, 1]);
+    const particleSize = d3.scaleLinear().domain(linkExtent).range([1, 5]);
+
+
+    energy.links.forEach((link) => {
+        link.freq = frequencyScale(link.value);
+        link.particleSize = 2;
+        link.particleColor = d3.scaleLinear().domain([0, 1])
+            .range([link.source.color, link.target.color]);
+    });
+
+    const t = d3.timer(tick, 1000);
+    let particles = [];
+
+    function tick(elapsed, time) {
+        particles = particles.filter(d => d.current < d.path.getTotalLength());
+
+        d3.selectAll('path.link')
+            .each(
+                function (d) {
+                    // if (d.freq < 1) {
+                    for (let x = 0; x < 2; x += 1) {
+                        const offset = (Math.random() - 0.5) * (d.dy - 4);
+                        if (Math.random() < d.freq) {
+                            const length = this.getTotalLength();
+                            particles.push({ link: d, time: elapsed, offset, path: this, length, animateTime: length, speed: 0.5 + (Math.random()) });
+                        }
+                    }
+                });
+
+        particleEdgeCanvasPath(elapsed);
+    }
+
+    function particleEdgeCanvasPath(elapsed) {
+        const context = d3.select('canvas').node().getContext('2d');
+
+        context.clearRect(0, 0, 1000, 1000);
+
+        context.fillStyle = 'gray';
+        context.lineWidth = '1px';
+        for (const x in particles) {
+            if ({}.hasOwnProperty.call(particles, x)) {
+                const currentTime = elapsed - particles[x].time;
+                // var currentPercent = currentTime / 1000 * particles[x].path.getTotalLength();
+                particles[x].current = currentTime * 0.15 * particles[x].speed;
+                const currentPos = particles[x].path.getPointAtLength(particles[x].current);
+                context.beginPath();
+                context.fillStyle = particles[x].link.particleColor(0);
+                context.arc(currentPos.x, currentPos.y + particles[x].offset, particles[x].link.particleSize, 0, 2 * Math.PI);
+                context.fill();
+            }
+        }
     }
 });
