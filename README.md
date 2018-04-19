@@ -1,5 +1,5 @@
 # statcan_energyflows_hackathon
-Repository for the scripts and files required during the hackathon by Team 2
+Repository for the scripts and files required during the hackathon by Team 2. Note that the Power BI file is not stored here because binary files do not work well with git. However, this repo does include the Stata _.do_ file that was used to produce the input data for the Power Bi app.
 
 # Sankey Examples
 Some links to other work for inspiration.
@@ -43,3 +43,4 @@ The _/data_ directory contains several files:
   * _energyprovince.csv_
     * A subset of CANSIM Table 128-0016
     * Contains energy use by province and year (2000-2016)
+# Scripts
