@@ -1,0 +1,25 @@
+CANSIM_label,new_label,positive,supply_target
+Agriculture,Agriculture,TRUE,TRUE
+Availability,Electricity generation,TRUE,TRUE
+Commercial and other institutional,Commercial and other institutional,TRUE,TRUE
+Exports,Exports,TRUE,TRUE
+Imports,Imports,TRUE,FALSE
+Inter-product transfers,Transfers from other products,FALSE,FALSE
+Inter-product transfers,Transfers to other products,TRUE,TRUE
+Non-energy use,Non-energy use,TRUE,TRUE
+Other adjustments,Gains due to other adjustments,FALSE,TRUE
+Other adjustments,Losses due to other adjustments,TRUE,TRUE
+Producer consumption,Producer consumption,TRUE,TRUE
+Production,Production,TRUE,TRUE
+Public administration,Public administration,TRUE,TRUE
+Residential,Residential,TRUE,TRUE
+Statistical difference,Negative statistical difference,FALSE,TRUE
+Statistical difference,Positive statistical difference,TRUE,TRUE
+Stock variation,Stock deposits,TRUE,TRUE
+Stock variation,Stock withdrawals,FALSE,FALSE
+Total industrial,Total industrial,TRUE,TRUE
+Total transportation,Total transportation,TRUE,TRUE
+Transformed to coke and manufactured gased,Coal products,TRUE,TRUE
+Transformed to electricity by industry,Electricity generation,TRUE,TRUE
+Transformed to electricity by utilities,Electricity generation,TRUE,TRUE
+Transformed to refined petroleum products,Refined petroleum products,TRUE,TRUE
