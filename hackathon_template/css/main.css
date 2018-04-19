@@ -318,3 +318,8 @@ svg {
 canvas {
     position: absolute;
 }
+
+#metric_results {
+    float: right;
+    margin-right: 40px;
+}

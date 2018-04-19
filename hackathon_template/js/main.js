@@ -2,8 +2,8 @@
 
 // configure display settings
 const margin = { top: 1, right: 1, bottom: 6, left: 1 };
-const width = 960 - margin.left - margin.right;
-const height = 500 - margin.top - margin.bottom;
+const width = 1000 - margin.left - margin.right;
+const height = 600 - margin.top - margin.bottom;
 const formatNumber = d3.format(',.0f'); // convert values to type float
 const format = d => `${formatNumber(d)} TJ`; // append unit of measurements to end of node and link values
 const color = d3.scaleOrdinal(d3.schemeCategory20);
@@ -27,60 +27,70 @@ const path = sankey.link();
 const freqCounter = 1;
 var energy = {};
 
+
 var timer = null;
+
+var first_data = false;
 //https://api.myjson.com/bins/dpp2b
 
-d3.json('energy_flows.json', (blah_energy) => {
+function read_data() {
 
-    connect_to_server = true;
-    energy = blah_energy;
-    console.log(energy);
-    //update_dropdown(energy.nodes);
-    var list = document.getElementById("dropFuel");
-    for (var x in energy.nodes){
-        var fuel_name = energy.nodes[x].name;
-        var link = document.createElement("a");
-        link.className = 'dropdown-item';
-        var text = document.createTextNode(fuel_name);
-        link.appendChild(text);
-        link.href = "#";
-        link.onclick = filterEvent;
-        list.appendChild(link);
+        d3.json('energy_flows.json', (blah_energy) => {
 
-    }
-    //create_graph(energy.nodes, energy.links);
-    var graph = getData();
-    console.log(graph);
-    create_graph(energy.nodes, energy.links);
+            connect_to_server = true;
+
+            energy = blah_energy;
+
+            //update_dropdown(energy.nodes);
+            var list = document.getElementById("dropFuel");
+            for (var x in energy.nodes) {
+                var fuel_name = energy.nodes[x].name;
+                var link = document.createElement("a");
+                link.className = 'dropdown-item';
+                var text = document.createTextNode(fuel_name);
+                link.appendChild(text);
+                link.href = "#";
+                link.onclick = filterEvent;
+                list.appendChild(link);
+
+            }
+            //create_graph(energy.nodes, energy.links);
+
+            create_graph(energy.nodes, energy.links);
 
 
-});
+        });
+
+
+}
+read_data();
 
 function animation() {
-    if (start_animation === true) {
+    svg.selectAll('g').remove();
+    if (start_animation == true) {
         start_animation = false;
-        timer.restart(tick, 1000);
+
+        create_graph(energy.nodes, energy.links);
 
     }
     else {
+        console.log('hi');
         start_animation = true;
-        particles = [];
-        timer.stop();
+        create_graph(energy.nodes, energy.links);
     }
 
 
 }
 
 function filterEvent() {
-    //console.log(this.childNodes[0].data);
-    var new_energy = {};
-    svg.selectAll('g').remove();
+    //svg.selectAll('g').remove();
     var newnodes = [];
     var newlinks = [];
-    var new_links = [];
+    var table_title = "";
     for (var x in energy.nodes) {
         if (energy.nodes[x].name === this.childNodes[0].data) {
             if (energy.nodes[x].sourceLinks.length !== 0) {
+                table_title = energy.nodes[x].name;
                 for (var y in energy.nodes[x].sourceLinks) {
                     newnodes.push(energy.nodes[x].sourceLinks[y].target);
                     //newnodes.push({
@@ -103,24 +113,31 @@ function filterEvent() {
             //newnodes.push({
               //  "name": energy.nodes[x].name
             //});
-            newlinks = energy.nodes[x].sourceLinks.concat(energy.nodes[x].targetLinks);
+            if (energy.nodes[x].sourceLinks.length != 0 && energy.nodes[x].targetLinks.length !=0)
+                newlinks = energy.nodes[x].sourceLinks.concat(energy.nodes[x].targetLinks);
+            else {
+                if (energy.nodes[x].sourceLinks.length == 0)
+                    newlinks = energy.nodes[x].targetLinks;
+                else
+                    newlinks = energy.nodes[x].sourceLinks
+            }
+            console.log(newlinks);
 
-            new_energy = {
-              "links": newlinks,
-                "nodes": newnodes
-            };
-           // console.log(new_energy);
             break;
 
         }
     }
 
-    create_graph(newnodes, newlinks);
+    //create_graph(newnodes, newlinks);
+    addTable(table_title, newlinks);
 }
 
 function noFilter() {
-    svg.selectAll('g').remove();
-    create_graph(energy.nodes, energy.links);
+    //svg.selectAll('g').remove();
+    //read_data();
+    //create_graph(energy.nodes, energy.links);
+    var list = document.getElementById("metric_results");   // Get the <ul> element with id="myList"
+    list.removeChild(list.childNodes[0]);
 }
 
 function create_graph(nodes, links) {
@@ -195,9 +212,8 @@ function create_graph(nodes, links) {
                 .range([link.source.color, link.target.color]);
         });
 
-
-        timer = d3.timer(tick, 1000);
-        console.log(start_animation);
+        if (start_animation)
+            timer = d3.timer(tick, 1000);
 
 
 
@@ -612,6 +628,60 @@ function getData() {
         }, {
             "name": "node7"
         }]};
+}
+
+function addTable(title, new_links) {
+    var myTableDiv = document.getElementById("metric_results")
+    var prev_table = myTableDiv.childNodes[0]
+    var table = document.createElement('TABLE')
+    var tableBody = document.createElement('TBODY')
+    //var header = table.createTHead();
+    //var title_row = header.insertRow(0);
+    //var cell = title_row.insertCell(0);
+    //cell.innerHTML = title.bold();
+    table.border = '1'
+    table.appendChild(tableBody);
+
+    var heading = new Array();
+    heading[0] = "Source"
+    heading[1] = "Target"
+    heading[2] = "Value (TJ)"
+
+    var stock = new Array()
+
+    for (var x in new_links) {
+        var row_array = new Array()
+        row_array.push(new_links[x].source.name);
+        row_array.push(new_links[x].target.name);
+        row_array.push(new_links[x].value.toString());
+        stock.push(row_array);
+    }
+
+    //TABLE COLUMNS
+    var tr = document.createElement('TR');
+    tableBody.appendChild(tr);
+    for (i = 0; i < heading.length; i++) {
+        var th = document.createElement('TH')
+        th.width = '75';
+        th.appendChild(document.createTextNode(heading[i]));
+        tr.appendChild(th);
+    }
+
+    //TABLE ROWS
+    for (i = 0; i < stock.length; i++) {
+        var tr = document.createElement('TR');
+        for (j = 0; j < stock[i].length; j++) {
+            var td = document.createElement('TD')
+            td.appendChild(document.createTextNode(stock[i][j]));
+            tr.appendChild(td)
+        }
+        tableBody.appendChild(tr);
+    }
+    if (prev_table != null) {
+        myTableDiv.replaceChild(table, prev_table)
+    }
+    else
+        myTableDiv.appendChild(table)
 }
 
 
