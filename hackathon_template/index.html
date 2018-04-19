@@ -38,24 +38,42 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Login</a>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Fuel Types
+                        </a>
+                        <div class="dropdown-menu" id="dropFuel">
+                            <a class="dropdown-item" href="#" onclick="noFilter()">All</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="animation()">Animation</a>
+                        </a>
+                    </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Fuel Types" aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
             </div>
         </nav>
-        <br>
+
         <div class="container">
-            <canvas width='960' height='500' ></canvas>
-            <svg width='960' height='500' ></svg>
+
+                            <canvas width="960" height="500"></canvas>
+                            <div id="flow" class=""></div>
+
         </div>
+
+            <!--<svg width='960' height='960' ></svg>-->
+
 
 
         <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.8.0/d3.js' charset='utf-8' type='text/javascript'></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/d3-sankey/0.4.2/d3-sankey.js' charset='utf-8' type='text/javascript'></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/d3-timer/1.0.5/d3-timer.js' charset='utf-8' type='text/javascript'></script>
         <script src="js/main.js"></script>
+        <script src="js/vis.js"></script>
 
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
