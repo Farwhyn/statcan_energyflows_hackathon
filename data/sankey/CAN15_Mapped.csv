@@ -1,0 +1,86 @@
+Ref_Date,GEO,FUEL,SUPPLY,Vector,Coordinate,Value,Input,Output
+2015,Canada,Total refined petroleum products,Inter-product transfers,v54272424,1.14.6,-386892,Refined petroleum products,Inter-product transfers
+2015,Canada,Gas plant natural gas liquids (NGL's),Other adjustments,v54272889,1.6.7,-124573,NGLs,Other adjustments
+2015,Canada,Natural gas,Inter-product transfers,v54272864,1.5.6,-112297,Natural gas,Inter-product transfers
+2015,Canada,Total refined petroleum products,Stock variation,v54272423,1.14.5,-35833,Stock variation,Refined petroleum products
+2015,Canada,Gas plant natural gas liquids (NGL's),Stock variation,v54272888,1.6.5,-17653,Stock variation,NGLs
+2015,Canada,Coke,Stock variation,v54272370,1.10.5,-2321,Stock variation,Coal products
+2015,Canada,Gas plant natural gas liquids (NGL's),Statistical difference,v54272887,1.6.47,4,NGLs,Statistical difference
+2015,Canada,Total coal,Producer consumption,v54272726,1.29.16,11,Coal,Producer consumption
+2015,Canada,Total coal,Exports,v54272729,1.29.2,33,Coal,Exports
+2015,Canada,Total coal,Imports,v54272738,1.29.3,33,Imports,Coal
+2015,Canada,Total coal,Transformed to electricity by industry,v54272722,1.29.11,33,Coal,"Secondary electricity, thermal"
+2015,Canada,Total coal,Commercial and other institutional,v54272742,1.29.46,33,Coal,Commercial and other institutional
+2015,Canada,Total coal,Statistical difference,v54272743,1.29.47,33,Coal,Statistical difference
+2015,Canada,Gas plant natural gas liquids (NGL's),Transformed to refined petroleum products,v54272868,1.6.13,33,NGLs,Refined petroleum products
+2015,Canada,Gas plant natural gas liquids (NGL's),Producer consumption,v54272870,1.6.16,33,NGLs,Producer consumption
+2015,Canada,Gas plant natural gas liquids (NGL's),Non-energy use,v54272871,1.6.17,33,NGLs,Non-energy use
+2015,Canada,Coke,Exports,v54272361,1.10.2,33,Coal products,Exports
+2015,Canada,Total refined petroleum products,Statistical difference,v62306397,1.14.47,33,Refined petroleum products,Statistical difference
+2015,Canada,Coke oven gas,Transformed to electricity by industry,v54272373,1.11.11,285,Coal products,"Secondary electricity, thermal"
+2015,Canada,Total coal,Residential,v54272741,1.29.44,305,Coal,Residential
+2015,Canada,Coke,Non-energy use,v54272359,1.10.17,1030,Coal products,Non-energy use
+2015,Canada,Total coal,Non-energy use,v54272727,1.29.17,2383,Coal,Non-energy use
+2015,Canada,Gas plant natural gas liquids (NGL's),Agriculture,v54272883,1.6.43,9065,NGLs,Agriculture
+2015,Canada,Crude oil,Stock variation,v54272828,1.4.5,10178,Stock variation,Crude oil
+2015,Canada,"Primary electricity, hydro and nuclear",Imports,v54272905,1.7.3,10327,Imports,"Primary electricity, hydro and nuclear"
+2015,Canada,Total coal,Stock variation,v54272744,1.29.5,10504,Stock variation,Coal
+2015,Canada,Gas plant natural gas liquids (NGL's),Total transportation,v54272882,1.6.42,10716,NGLs,Total transportation
+2015,Canada,Gas plant natural gas liquids (NGL's),Residential,v54272884,1.6.44,14479,NGLs,Residential
+2015,Canada,Coke,Imports,v54272368,1.10.3,16723,Imports,Coal products
+2015,Canada,Coke oven gas,Total industrial,v54272379,1.11.31,21181,Coal products,Total industrial
+2015,Canada,Total refined petroleum products,Transformed to electricity by industry,v54272386,1.14.11,21361,Refined petroleum products,"Secondary electricity, thermal"
+2015,Canada,"Primary electricity, hydro and nuclear",Total transportation,v54272910,1.7.42,22060,Electricity generation,Total transportation
+2015,Canada,Natural gas,Public administration,v54272861,1.5.45,23260,Natural gas,Public administration
+2015,Canada,Total coal,Other adjustments,v54325467,1.29.7,33469,Coal,Other adjustments
+2015,Canada,"Primary electricity, hydro and nuclear",Agriculture,v54272911,1.7.43,34949,Electricity generation,Agriculture
+2015,Canada,Natural gas,Transformed to refined petroleum products,v54272834,1.5.13,35693,Natural gas,Refined petroleum products
+2015,Canada,Gas plant natural gas liquids (NGL's),Commercial and other institutional,v54272886,1.6.46,35767,NGLs,Commercial and other institutional
+2015,Canada,Natural gas,Agriculture,v54272859,1.5.43,39125,Natural gas,Agriculture
+2015,Canada,Total coal,Total industrial,v54272739,1.29.31,45002,Coal,Total industrial
+2015,Canada,"Primary electricity, hydro and nuclear",Public administration,v54272913,1.7.45,48014,Electricity generation,Public administration
+2015,Canada,Total refined petroleum products,Public administration,v54272420,1.14.45,50525,Refined petroleum products,Public administration
+2015,Canada,Gas plant natural gas liquids (NGL's),Total industrial,v54272879,1.6.31,57464,NGLs,Total industrial
+2015,Canada,Total refined petroleum products,Transformed to electricity by utilities,v54272385,1.14.10,68093,Refined petroleum products,"Secondary electricity, thermal"
+2015,Canada,Total refined petroleum products,Residential,v54272419,1.14.44,69550,Refined petroleum products,Residential
+2015,Canada,Gas plant natural gas liquids (NGL's),Imports,v54272877,1.6.3,73300,Imports,NGLs
+2015,Canada,Coke,Total industrial,v54272369,1.10.31,73303,Coal products,Total industrial
+2015,Canada,Total refined petroleum products,Commercial and other institutional,v54272421,1.14.46,78599,Refined petroleum products,Commercial and other institutional
+2015,Canada,Total coal,Transformed to coke and manufactured gases,v54272723,1.29.12,87307,Coal,Coal products
+2015,Canada,Natural gas,Stock variation,v54272863,1.5.5,95673,Stock variation,Natural gas
+2015,Canada,Natural gas,Non-energy use,v54272838,1.5.17,150810,Natural gas,Non-energy use
+2015,Canada,Natural gas,Total transportation,v54272858,1.5.42,167166,Natural gas,Total transportation
+2015,Canada,Natural gas,Other adjustments,v54272865,1.5.7,187930,Natural gas,Other adjustments
+2015,Canada,Gas plant natural gas liquids (NGL's),Exports,v54272873,1.6.2,205287,NGLs,Exports
+2015,Canada,Total refined petroleum products,Agriculture,v54272418,1.14.43,213018,Refined petroleum products,Agriculture
+2015,Canada,"Primary electricity, hydro and nuclear",Producer consumption,v54272893,1.7.16,233990,Electricity generation,Producer consumption
+2015,Canada,"Primary electricity, hydro and nuclear",Exports,v54272895,1.7.2,246946,"Primary electricity, hydro and nuclear",Exports
+2015,Canada,Total refined petroleum products,Total industrial,v54272405,1.14.31,293935,Refined petroleum products,Total industrial
+2015,Canada,Natural gas,Transformed to electricity by industry,v54272833,1.5.11,297908,Natural gas,"Secondary electricity, thermal"
+2015,Canada,"Primary electricity, hydro and nuclear",Commercial and other institutional,v54272914,1.7.46,375034,Electricity generation,Commercial and other institutional
+2015,Canada,Natural gas,Transformed to electricity by utilities,v54272832,1.5.10,385995,Natural gas,"Secondary electricity, thermal"
+2015,Canada,Natural gas,Commercial and other institutional,v54272862,1.5.46,489636,Natural gas,Commercial and other institutional
+2015,Canada,"Secondary electricity, thermal",Availability,v54272383,1.13.8,504069,"Secondary electricity, thermal",Electricity generation
+2015,Canada,Total refined petroleum products,Non-energy use,v54272390,1.14.17,524755,Refined petroleum products,Non-energy use
+2015,Canada,Total refined petroleum products,Producer consumption,v54272389,1.14.16,543984,Refined petroleum products,Producer consumption
+2015,Canada,"Primary electricity, hydro and nuclear",Residential,v54272912,1.7.44,605250,Electricity generation,Residential
+2015,Canada,Natural gas,Producer consumption,v54272837,1.5.16,619799,Natural gas,Producer consumption
+2015,Canada,Total refined petroleum products,Imports,v54272403,1.14.3,654966,Imports,Refined petroleum products
+2015,Canada,Gas plant natural gas liquids (NGL's),Production,v54272867,1.6.1,677715,Production,NGLs
+2015,Canada,Total coal,Transformed to electricity by utilities,v54272721,1.29.10,678424,Coal,"Secondary electricity, thermal"
+2015,Canada,Natural gas,Residential,v54272860,1.5.44,689772,Natural gas,Residential
+2015,Canada,"Primary electricity, hydro and nuclear",Total industrial,v54272906,1.7.31,713190,Electricity generation,Total industrial
+2015,Canada,Natural gas,Imports,v54272851,1.5.3,770134,Imports,Natural gas
+2015,Canada,Crude oil,Other adjustments,v65584138,1.4.7,908378,Crude oil,Other adjustments
+2015,Canada,Total refined petroleum products,Exports,v54272392,1.14.2,1017387,Refined petroleum products,Exports
+2015,Canada,Natural gas,Total industrial,v54272853,1.5.31,1323172,Natural gas,Total industrial
+2015,Canada,Total coal,Production,v54272720,1.29.1,1354015,Production,Coal
+2015,Canada,"Primary electricity, hydro and nuclear",Availability,v54272915,1.7.8,1573064,"Primary electricity, hydro and nuclear",Electricity generation
+2015,Canada,Crude oil,Imports,v54272826,1.4.3,1737710,Imports,Crude oil
+2015,Canada,"Primary electricity, hydro and nuclear",Production,v54272891,1.7.1,1809683,Production,"Primary electricity, hydro and nuclear"
+2015,Canada,Total refined petroleum products,Total transportation,v54272417,1.14.42,2488374,Refined petroleum products,Total transportation
+2015,Canada,Natural gas,Exports,v54272840,1.5.2,3070656,Natural gas,Exports
+2015,Canada,Crude oil,Transformed to refined petroleum products,v54272824,1.4.13,4186070,Crude oil,Refined petroleum products
+2015,Canada,Natural gas,Production,v54272831,1.5.1,6473346,Production,Natural gas
+2015,Canada,Crude oil,Exports,v54272825,1.4.2,6931876,Crude oil,Exports
+2015,Canada,Crude oil,Production,v54272823,1.4.1,8840768,Production,Crude oil

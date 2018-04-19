@@ -1,0 +1,7 @@
+Ref_Date,GEO,FUEL,SUPPLY,Vector,Coordinate,Value,Input,Output
+2015,Canada,Hydraulic turbine (3),Production,v0000,1.1.1,1362628,Hydro,"Primary electricity, hydro and nuclear"
+2015,Canada,Tidal power turbine (4),Production,v0001,1.1.2,46,Tidal,"Primary electricity, hydro and nuclear"
+2015,Canada,Wind power turbine (5),Production,v0002,1.1.3,96108,Wind,"Primary electricity, hydro and nuclear"
+2015,Canada,Solar (10),Production,v0003,1.1.4,5136,Solar,"Primary electricity, hydro and nuclear"
+2015,Canada,Other types of electricity generation,Production,v0004,1.1.5,502,Other Electricity,"Primary electricity, hydro and nuclear"
+2015,Canada,Nuclear steam turbine (7),Production,v0005,1.1.6,345765,Nuclear,"Primary electricity, hydro and nuclear"

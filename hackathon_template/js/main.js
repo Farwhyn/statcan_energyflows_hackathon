@@ -28,9 +28,9 @@ const freqCounter = 1;
 var energy = {};
 
 var timer = null;
-var particles = [];
+//https://api.myjson.com/bins/dpp2b
 
-d3.json('https://api.myjson.com/bins/1fbuaj', (blah_energy) => {
+d3.json('energy_flows.json', (blah_energy) => {
 
     connect_to_server = true;
     energy = blah_energy;

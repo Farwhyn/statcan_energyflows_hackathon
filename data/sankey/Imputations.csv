@@ -1,0 +1,11 @@
+Ref_Date,GEO,FUEL,SUPPLY,Vector,Coordinate,Value,Input,Output
+2015,Canada,Total coal,Exports,v54272729,1.29.2,712731,Coal,Exports
+2015,Canada,Total coal,Imports,v54272738,1.29.3,311393,Imports,Coal
+2015,Canada,Total coal,Transformed to electricity by industry,v54272722,1.29.11,0,Coal,"Secondary electricity, thermal"
+2015,Canada,Total coal,Commercial and other institutional,v54272742,1.29.46,0,Coal,Commercial and other institutional
+2015,Canada,Total coal,Statistical difference,v54272743,1.29.47,95272,Coal,Statistical difference
+2015,Canada,Gas plant natural gas liquids (NGL's),Transformed to refined petroleum products,v54272868,1.6.13,33381,NGLs,Refined petroleum products
+2015,Canada,Gas plant natural gas liquids (NGL's),Producer consumption,v54272870,1.6.16,19713,NGLs,Producer consumption
+2015,Canada,Gas plant natural gas liquids (NGL's),Non-energy use,v54272871,1.6.17,358315,NGLs,Non-energy use
+2015,Canada,Coke,Exports,v54272361,1.10.2,1224,Coal products,Exports
+2015,Canada,Total refined petroleum products,Statistical difference,v62306397,1.14.47,-36746,Refined petroleum products,Statistical difference

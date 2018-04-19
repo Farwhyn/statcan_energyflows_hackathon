@@ -1,0 +1,28 @@
+"Table 379-0030 Gross domestic product (GDP) at basic prices, by North American Industry Classification System (NAICS), provinces and territories, annual (dollars x 1,000,000)(1,2,60,63,64)"
+Survey or program details:
+Gross Domestic Product by Industry - Provincial and Territorial (Annual) - 1303
+Geography,Value,North American Industry Classification System (NAICS),2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016
+Newfoundland and Labrador,Chained (2007) dollars,All industries [T001]  (3),19369.9,19467.3,22463.1,23888.1,23643.0,24184.9,25011.2,27349.4,26853.9,24326.5,25613.0,26369.7,25192.6,26460.9,26171.4,25779.1,26221.3
+Prince Edward Island,Chained (2007) dollars,All industries [T001]  (3),3564.3,3557.3,3720.4,3801.2,3909.9,3957.0,4106.6,4194.5,4242.4,4250.3,4340.6,4424.0,4464.2,4548.4,4563.0,4632.0,4733.4
+Nova Scotia,Chained (2007) dollars,All industries [T001]  (3),26981.4,27911.9,29024.3,29518.2,29860.4,30275.0,30470.2,30972.0,31496.4,31508.7,32329.9,32426.4,32116.1,32019.5,32346.7,32722.8,33066.2
+New Brunswick,Chained (2007) dollars,All industries [T001]  (3),21946.4,22299.2,23203.1,23796.0,24507.0,24912.0,25581.2,25878.8,26104.5,25736.4,26272.4,26326.8,26007.4,25912.2,25927.2,26523.6,26840.8
+Quebec,Chained (2007) dollars,All industries [T001]  (3),250982.1,254592.4,261083.0,264225.0,270095.4,274616.0,279024.6,284479.0,289346.6,286065.0,292231.5,298465.4,302369.1,306154.5,310935.2,314060.5,318867.9
+Ontario,Chained (2007) dollars,All industries [T001]  (3),483441.0,490559.8,503509.5,512001.8,525549.4,539739.8,550887.0,559412.4,557803.5,539388.0,555907.5,570633.3,578793.9,586913.0,601343.5,618051.4,634257.8
+Manitoba,Chained (2007) dollars,All industries [T001]  (3),39691.5,40051.2,40684.5,41185.9,42013.7,43257.9,44807.4,46139.6,47663.9,47528.5,48745.0,49864.3,51354.7,52727.7,53741.4,54474.7,55628.2
+Saskatchewan,Chained (2007) dollars,All industries [T001]  (3),43896.2,43244.3,42907.2,44809.3,46944.6,48257.6,47611.5,49254.1,51829.3,49060.6,51500.6,54262.9,55261.6,58812.8,59907.3,59166.7,58904.4
+Alberta,Chained (2007) dollars,All industries [T001]  (3),195138.2,199413.1,202858.0,209349.3,220569.4,231233.0,245421.1,250487.6,253755.9,240215.3,252494.3,269508.4,280280.4,296431.8,313785.6,301457.2,290613.2
+British Columbia (66),Chained (2007) dollars,All industries [T001]  (3),146846.9,148521.0,153103.2,157134.7,163403.9,171139.8,177707.6,182528.6,183633.0,178777.3,183574.0,188788.9,193667.2,198223.8,205271.4,211945.3,219552.9
+Yukon,Chained (2007) dollars,All industries [T001]  (3),1427.9,1482.5,1470.4,1442.8,1521.1,1559.0,1645.0,1737.0,1905.0,2023.6,2111.6,2214.8,2302.9,2337.6,2352.7,2165.8,2345.3
+Northwest Territories,Chained (2007) dollars,All industries [T001]  (3),2591.0,3225.2,3447.0,3951.6,4065.1,4031.6,4065.5,4535.3,4100.9,3673.9,3774.7,3427.3,3408.1,3502.2,3668.5,3714.1,3744.8
+Nunavut,Chained (2007) dollars,All industries [T001]  (3),1053.1,1113.4,1171.8,1160.4,1212.4,1224.2,1256.9,1312.1,1485.3,1388.6,1646.6,1741.9,1785.3,1965.6,1940.9,1929.5,1966.1
+Footnotes:
+1,"For the gross domestic product (GDP) by industry refer to CANSIM table 379-0031 for Canada in chained dollars, table 379-0029 for Canada in current dollars, table 379-0028 for provinces and territories in percentage share."
+2,"For the chained dollars, the aggregates are not equal to the sum of their components."
+3,Aggregate T001 combines the North American Industry Classification System (NAICS) codes 11-91.
+60,"On June 22, 2015, provincial and territorial values for special aggregates (tabulations T002 through T016) were corrected for 2014 and subsequently revised in November, 2015 as part of the annual revision."
+63,"The November 10, 2015 release incorporates comprehensive revisions to the provincial-territorial estimates of gross domestic product by industry for reference years 2007 to 2014. For more information on the source of these changes, consult the information found at Latest Developments in the Canadian Economic Accounts in the system of macroeconomic accounts module at http://www.statcan.gc.ca/pub/13-605-x/2015003/article/14153-eng.htm."
+64,"As part of the 2015 comprehensive revision of the Canadian System of Macroeconomic Accounts (CSMA), the provincial-territorial Gross Domestic Product (GDP) by industry data in chained (2007) dollars for the period 1997 to 2006 have been released on December 15, 2015. The data for the period 1997 to 2006 have been aligned with those published on November 10, 2015 for the period 2007 to 2014. In addition, the chained (2007) dollars for the provincial and territorial GDP for the following three aggregates were revised for the period 2007-2014 vis-à-vis those released on November 10, 2015: information and communication technology-total, information and communication technology-manufacturing, and information and communication technology-services. The growth rates for these three series for the 2008-2014 period were unaffected."
+66,A statistical break was introduced for industry 5121A estimates in reference year 2014 resulting from refinements to the provincial allocation process. Users are advised to use caution when examining growth rates.
+Source:
+"Statistics Canada. Table 379-0030 - Gross domestic product (GDP) at basic prices, by North American Industry Classification System (NAICS), provinces and territories, annual (dollars)"
+"(accessed: April 18, 2018)"

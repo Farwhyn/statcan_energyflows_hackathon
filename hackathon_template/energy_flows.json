@@ -1,0 +1,468 @@
+{
+"links": [
+{
+"source": 0,
+"target": 1,
+"value": 87307
+},
+{
+"source": 0,
+"target": 20,
+"value": 712731
+},
+{
+"source": 0,
+"target": 21,
+"value": 2383
+},
+{
+"source": 0,
+"target": 22,
+"value": 305
+},
+{
+"source": 0,
+"target": 23,
+"value": 11
+},
+{
+"source": 0,
+"target": 15,
+"value": 678424
+},
+{
+"source": 0,
+"target": 24,
+"value": 10504
+},
+{
+"source": 0,
+"target": 25,
+"value": 45002
+},
+{
+"source": 1,
+"target": 20,
+"value": 1224
+},
+{
+"source": 1,
+"target": 21,
+"value": 1030
+},
+{
+"source": 1,
+"target": 15,
+"value": 285
+},
+{
+"source": 1,
+"target": 25,
+"value": 94484
+},
+{
+"source": 2,
+"target": 20,
+"value": 6931876
+},
+{
+"source": 2,
+"target": 14,
+"value": 4186070
+},
+{
+"source": 2,
+"target": 24,
+"value": 10178
+},
+{
+"source": 3,
+"target": 26,
+"value": 34949
+},
+{
+"source": 3,
+"target": 22,
+"value": 1028298
+},
+{
+"source": 3,
+"target": 23,
+"value": 233990
+},
+{
+"source": 3,
+"target": 25,
+"value": 713190
+},
+{
+"source": 3,
+"target": 27,
+"value": 22060
+},
+{
+"source": 4,
+"target": 12,
+"value": 1362628
+},
+{
+"source": 5,
+"target": 0,
+"value": 311393
+},
+{
+"source": 5,
+"target": 1,
+"value": 16723
+},
+{
+"source": 5,
+"target": 2,
+"value": 1737710
+},
+{
+"source": 5,
+"target": 7,
+"value": 73300
+},
+{
+"source": 5,
+"target": 8,
+"value": 770134
+},
+{
+"source": 5,
+"target": 12,
+"value": 10327
+},
+{
+"source": 5,
+"target": 14,
+"value": 654966
+},
+{
+"source": 6,
+"target": 8,
+"value": 112297
+},
+{
+"source": 6,
+"target": 14,
+"value": 386892
+},
+{
+"source": 7,
+"target": 26,
+"value": 9065
+},
+{
+"source": 7,
+"target": 20,
+"value": 205287
+},
+{
+"source": 7,
+"target": 21,
+"value": 358315
+},
+{
+"source": 7,
+"target": 28,
+"value": 124573
+},
+{
+"source": 7,
+"target": 22,
+"value": 50246
+},
+{
+"source": 7,
+"target": 23,
+"value": 19713
+},
+{
+"source": 7,
+"target": 14,
+"value": 33381
+},
+{
+"source": 7,
+"target": 25,
+"value": 57464
+},
+{
+"source": 7,
+"target": 27,
+"value": 10716
+},
+{
+"source": 8,
+"target": 26,
+"value": 39125
+},
+{
+"source": 8,
+"target": 20,
+"value": 3070656
+},
+{
+"source": 8,
+"target": 21,
+"value": 150810
+},
+{
+"source": 8,
+"target": 22,
+"value": 1202668
+},
+{
+"source": 8,
+"target": 23,
+"value": 619799
+},
+{
+"source": 8,
+"target": 14,
+"value": 35693
+},
+{
+"source": 8,
+"target": 15,
+"value": 683903
+},
+{
+"source": 8,
+"target": 24,
+"value": 95673
+},
+{
+"source": 8,
+"target": 25,
+"value": 1323172
+},
+{
+"source": 8,
+"target": 27,
+"value": 167166
+},
+{
+"source": 9,
+"target": 12,
+"value": 345765
+},
+{
+"source": 10,
+"target": 12,
+"value": 502
+},
+{
+"source": 11,
+"target": 0,
+"value": 33469
+},
+{
+"source": 11,
+"target": 2,
+"value": 908378
+},
+{
+"source": 11,
+"target": 8,
+"value": 187930
+},
+{
+"source": 12,
+"target": 3,
+"value": 1573064
+},
+{
+"source": 12,
+"target": 20,
+"value": 246946
+},
+{
+"source": 13,
+"target": 0,
+"value": 1354015
+},
+{
+"source": 13,
+"target": 2,
+"value": 8840768
+},
+{
+"source": 13,
+"target": 7,
+"value": 677715
+},
+{
+"source": 13,
+"target": 8,
+"value": 6473346
+},
+{
+"source": 14,
+"target": 26,
+"value": 213018
+},
+{
+"source": 14,
+"target": 20,
+"value": 1017387
+},
+{
+"source": 14,
+"target": 21,
+"value": 524755
+},
+{
+"source": 14,
+"target": 22,
+"value": 198674
+},
+{
+"source": 14,
+"target": 23,
+"value": 543984
+},
+{
+"source": 14,
+"target": 15,
+"value": 89454
+},
+{
+"source": 14,
+"target": 25,
+"value": 293935
+},
+{
+"source": 14,
+"target": 27,
+"value": 2488374
+},
+{
+"source": 15,
+"target": 3,
+"value": 504069
+},
+{
+"source": 16,
+"target": 12,
+"value": 5136
+},
+{
+"source": 17,
+"target": 1,
+"value": 2321
+},
+{
+"source": 17,
+"target": 7,
+"value": 17653
+},
+{
+"source": 17,
+"target": 14,
+"value": 35833
+},
+{
+"source": 18,
+"target": 12,
+"value": 46
+},
+{
+"source": 19,
+"target": 12,
+"value": 96108
+}
+],
+"nodes": [
+{
+"name": "Coal"
+},
+{
+"name": "Coal products"
+},
+{
+"name": "Crude oil"
+},
+{
+"name": "Electricity generation"
+},
+{
+"name": "Hydro"
+},
+{
+"name": "Imports"
+},
+{
+"name": "Inter-product transfers"
+},
+{
+"name": "NGLs"
+},
+{
+"name": "Natural gas"
+},
+{
+"name": "Nuclear"
+},
+{
+"name": "Other Electricity"
+},
+{
+"name": "Other supplies"
+},
+{
+"name": "Primary electricity"
+},
+{
+"name": "Production"
+},
+{
+"name": "Refined petroleum"
+},
+{
+"name": "Secondary electricity"
+},
+{
+"name": "Solar"
+},
+{
+"name": "Stock withdrawals"
+},
+{
+"name": "Tidal"
+},
+{
+"name": "Wind"
+},
+{
+"name": "Exports"
+},
+{
+"name": "Non-energy use"
+},
+{
+"name": "Other services"
+},
+{
+"name": "Producer consumption"
+},
+{
+"name": "Stock deposits"
+},
+{
+"name": "Total industrial"
+},
+{
+"name": "Agriculture"
+},
+{
+"name": "Total transportation"
+},
+{
+"name": "Other losses"
+}
+]
+}

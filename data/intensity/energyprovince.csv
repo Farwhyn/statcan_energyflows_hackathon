@@ -1,0 +1,39 @@
+"Table 128-0016 Supply and demand of primary and secondary energy in terajoules, annual (terajoules)(1,2,3)",,,,,,,,,,,,,,,,,,,
+Survey or program details:,,,,,,,,,,,,,,,,,,,
+Monthly Coke Supply and Disposition Survey - 2003,,,,,,,,,,,,,,,,,,,
+Monthly Coal Supply and Disposition Survey - 2147,,,,,,,,,,,,,,,,,,,
+Monthly Oil and Other Liquid Petroleum Products Pipeline Survey - 2148,,,,,,,,,,,,,,,,,,,
+Monthly Natural Gas Transmission Survey - 2149,,,,,,,,,,,,,,,,,,,
+Monthly Refined Petroleum Products - 2150,,,,,,,,,,,,,,,,,,,
+Monthly Electricity Supply and Disposition Survey - 2151,,,,,,,,,,,,,,,,,,,
+Quarterly Industrial Consumption of Energy Survey - 2166,,,,,,,,,,,,,,,,,,,
+Annual End-Use of Natural Gas Survey - 2167,,,,,,,,,,,,,,,,,,,
+Annual Survey on End-Use of Refined Petroleum Products - 2168,,,,,,,,,,,,,,,,,,,
+Monthly Oil Pipeline Statement - 2191,,,,,,,,,,,,,,,,,,,
+Annual Electricity Supply and Disposition Survey - 2194,,,,,,,,,,,,,,,,,,,
+Crude Oil and Natural Gas - 2198,,,,,,,,,,,,,,,,,,,
+Geography,Fuel type,Supply and demand characteristics,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016
+Canada,Total primary and secondary energy,"Energy use, final demand (11)",7248146,7089122,7302415,7485172,7457916,7486044,7351651,7730569,7669838,7365741,7553387,7819948,7788309,7975405,8079682,8018097,7952649
+Atlantic provinces,Total primary and secondary energy,"Energy use, final demand (11)",494580,493062,496247,511631,503510,495017,463383,494886,479408,451910,469237,510246,456905,418788,419586,442225,443102
+Newfoundland and Labrador,Total primary and secondary energy,"Energy use, final demand (11)",110381,110406,111980,118532,117397,122072,109992,122536,124228,117093,120504,124808,108740,107337,120914,125307,125984
+Prince Edward Island,Total primary and secondary energy,"Energy use, final demand (11)",23939,22888,23372,24072,24861,24094,23236,24903,23716,23728,24942,27675,26025,24530,24368,24874,25792
+Nova Scotia,Total primary and secondary energy,"Energy use, final demand (11)",173655,168871,173811,182372,183828,180188,164044,173056,167901,162737,163549,174502,153525,147277,137349,148015,143150
+New Brunswick,Total primary and secondary energy,"Energy use, final demand (11)",186605,190897,187084,186655,177425,168662,166111,174392,163563,148351,160243,183261,168613,139644,136954,144029,148177
+Quebec,Total primary and secondary energy,"Energy use, final demand (11)",1459849,1420330,1490829,1556609,1546597,1514915,1506019,1568304,1531925,1502222,1478557,1514625,1526800,1533995,1541277,1544729,1528327
+Ontario,Total primary and secondary energy,"Energy use, final demand (11)",2481626,2424179,2510624,2538426,2541231,2584326,2474647,2524980,2523964,2356912,2408188,2504903,2410435,2510675,2556359,2531991,2456732
+Manitoba,Total primary and secondary energy,"Energy use, final demand (11)",248353,237474,249239,246689,258740,263689,250778,265148,267523,257166,251173,255994,275846,282901,288625,279643,281863
+Saskatchewan,Total primary and secondary energy,"Energy use, final demand (11)",373857,346414,361857,357278,343411,370995,370815,406913,426508,427988,442215,440773,448642,480142,505777,508693,495455
+Alberta,Total primary and secondary energy,"Energy use, final demand (11)",1249940,1237746,1278118,1365552,1342691,1339732,1401561,1548760,1544065,1531209,1657778,1743703,1807288,1874274,1915636,1847218,1852272
+British Columbia,Total primary and secondary energy,"Energy use, final demand (11)",915709,899945,890168,883427,896550,890325,854783,884486,862868,810186,816020,816366,829115,840635,819157,827699,859879
+"Yukon, Northwest Territories and Nunavut",Total primary and secondary energy,"Energy use, final demand (11)",24233,29972,25334,25561,25189,27045,29664,37091,33577,28149,30217,33339,33279,33996,33265,35899,35017
+Yukon,Total primary and secondary energy,"Energy use, final demand (11)",5787,6080,5864,6215,6287,6857,7454,7632,8275,8341,9211,9866,9737,8946,7153,7731,6790
+Northwest Territories,Total primary and secondary energy,"Energy use, final demand (11)",15209,19026,14778,14318,13714,16112,16643,22730,19899,14482,15780,17493,17058,16387,18314,21005,19916
+Nunavut,Total primary and secondary energy,"Energy use, final demand (11)",3237,4866,4691,5028,5188,4076,5567,6729,5403,5325,5226,5980,6484,8663,7798,7162,8311
+Footnotes:,,,,,,,,,,,,,,,,,,,
+1,"For quarterly data on reference years prior to 2002, please see CANSIM table 128-0002.",,,,,,,,,,,,,,,,,,
+2,"CANSIM tables 128-0009, 128-0010 and 128-0015 have been archived and replaced with CANSIM tables 128-0016, 128-0017 and 128-0018. Comparisons of the new datasets with earlier published datasets should be done with caution.",,,,,,,,,,,,,,,,,,
+3,"Values for production and availability for ""total primary and secondary"" are not shown as these would lead to double-counting of fuels that are both a primary energy form and used to produce a secondary energy form.",,,,,,,,,,,,,,,,,,
+11,"The summation of the usage in mining and oil and gas extraction, manufacturing, forestry, construction, transportation, agriculture, residential, public administration and commercial and other institutional.",,,,,,,,,,,,,,,,,,
+Source:,,,,,,,,,,,,,,,,,,,
+"Statistics Canada. Table 128-0016 - Supply and demand of primary and secondary energy in terajoules, annual (terajoules)",,,,,,,,,,,,,,,,,,,
+"(accessed: April 18, 2018)",,,,,,,,,,,,,,,,,,,
