@@ -31,10 +31,18 @@ The _/data_ directory contains several files:
 	* It contains new, better imputations
 	* Imputation methods are documented in /refs/Decisions taken on imputed values.docx
 * _/data/intensity/_ contains the data files that were used to generate the PowerBI report:
-  * gdp.csv
+  * _gdp.csv_
     * A subset of CANSIM Table 379-0030
-    * Contains GDP by year (200-2016), by province and industry
+    * Contains GDP by year (2000-2016), by province and industry
+  * _gdpprovince.csv_
+    * A subset of CANSIM Table 379-0030
+	* Contains GDP by year (2000-2016) and by province
   *  energyuse.csv
     * A subset of CANSIM Table 128-0016
 	* Contains energy use by industry, province, and year (2000-2016)
+  * _gdpprovince.csv_
+    * A subset of CANSIM Table 128-0016
+	* Contains energy use by province and year (2000-2016)
+	
+	
 
