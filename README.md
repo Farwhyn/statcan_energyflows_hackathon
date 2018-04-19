@@ -44,3 +44,8 @@ The _/data_ directory contains several files:
     * A subset of CANSIM Table 128-0016
     * Contains energy use by province and year (2000-2016)
 # Scripts
+The _/transforms_ directory contains a couple of scripts for that take in raw input data and output files that feed into further analsis.
+* _/transforms/create_intensity_data.do_
+  * This Stata .do file operates on the datasets in _/data/intensity/_ and outputs _energy_gdp_v2.csv_ which feeds into the Power BI visualization tool.
+* _/transforms/create_sankey_data.ipynb_
+  * This Python script, formatted as a Jupter notebook, operates on the datasets in _/data/sankey/_ and outputs _energy_flows.json_ which feeds into Javascript Sankey visualization.
