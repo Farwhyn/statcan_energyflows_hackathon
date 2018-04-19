@@ -1,6 +1,6 @@
 # statcan_energyflows_hackathon
-Repository for the scripts and files required during the hackathon by Team 2. Note that the Power BI file is not stored here because binary files do not work well with git. However, this repo does include the Stata _.do_ file that was used to produce the input data for the Power Bi app.
-
+Repository for the scripts, files and documentation used for the hackathon by Team 2. The main products are the Sankey javascript visualization, available
+both locall and hosted on AWS, as well as the Power BI tool.
 # Sankey Examples
 Some links to other work for inspiration.
 
