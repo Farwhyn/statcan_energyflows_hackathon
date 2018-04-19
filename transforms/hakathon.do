@@ -2,6 +2,7 @@ drop _all
 clear
 **********************************************************
 *The following is to import data collected from CANSIM 379-0030
+*FILE PATHS HAVE TO UPDATED
 **********************************************************
 import delimited \\scan01\jue_zhang\gdp.csv, varnames(4) asdouble rowrange(4:3982) clear 
 replace geography="British Columbia" if geography=="British Columbia (66)"
