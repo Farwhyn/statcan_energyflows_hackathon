@@ -10,7 +10,7 @@ __sankey diagram crossfilter example__: http://bl.ocks.org/tonmcg/570fb0409b6c59
 # Deployed Sankey
 __url for hosted json data__: http://myjson.com/12n2mb
 
-__hosted site URL__: http://energyflowstatcan.s3-website-us-east-1.amazonaws.com/
+__hosted site URL__: https://s3.amazonaws.com/energyflowstatcan/index.html
 
 # Data files
 The _/data_ directory contains several files:
